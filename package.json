@@ -1,0 +1,43 @@
+{
+  "name": "react-announce-a11y",
+  "version": "1.0.0",
+  "description": "Allows you to have the screen reader announce messages to the user from your React based project. Great for things like searches, filtering, loading, and error messages. Can be done in JSX/TSX or from any code as long as it is initialized in JSX. It is written in Typescript so it has full typing.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "tslib": "^2.0.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.159",
+    "@types/react": "^16.9.46",
+    "typescript": "^3.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgage176/react-announce-a11y"
+  },
+  "keywords": [
+    "react",
+    "a11y",
+    "accessibility",
+    "narrator",
+    "Windows Narrator",
+    "screen reader",
+    "NVDA",
+    "chrome",
+    "edge",
+    "narrator",
+    "typescript",
+    "javascript",
+    "HTML5"
+  ],
+  "author": "jgage176",
+  "license": "MIT"
+}
